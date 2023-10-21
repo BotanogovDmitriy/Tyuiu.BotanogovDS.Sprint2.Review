@@ -10,7 +10,7 @@ namespace Tyuiu.BotanogovDS.Sprint2.Review.V9.Lib
 {
     public class DataService : ISprint2Task7V9
     {
-        public bool CheckDotInShadedArea(double x, double y)
+        public bool CheckDotInShadedArea(double x, double y) 
         {
             if (Math.Sin(x) >= y & y >= 0 & y <= 0.5 & x <= Math.PI & x >= 0)
             {

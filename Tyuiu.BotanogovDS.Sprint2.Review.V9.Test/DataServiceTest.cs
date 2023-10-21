@@ -13,7 +13,7 @@ namespace Tyuiu.BotanogovDS.Sprint2.Review.V9.Test
         {
             DataService ds = new DataService();
             bool ans = ds.CheckDotInShadedArea(0.6, 0.2);
-            Assert.AreEqual(true, ans);
+            Assert.AreEqual(true, ans); 
         }
     }
 }

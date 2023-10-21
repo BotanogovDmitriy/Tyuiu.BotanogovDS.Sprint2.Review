@@ -36,7 +36,7 @@ namespace Tyuiu.BotanogovDS.Sprint2.Review.V9
             
             x = Convert.ToDouble(Console.ReadLine());
             y = Convert.ToDouble(Console.ReadLine());
-            
+             
             Console.WriteLine("Ваше значение X: " + x + " Ваше значение Y: " + y);
             
             Console.WriteLine("***************************************************************************");
